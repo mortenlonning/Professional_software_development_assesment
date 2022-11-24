@@ -31,11 +31,11 @@ x = Random()
 
 # Test 1: Pre-condition = Method of the class is supplied with three integers(10, 10, 20). This is what the method expects and should work.
 # Test 1: Post-condition = The method should print a list containing 10 random numbers where the lowest possible number is 10 and the biggest possible 
-number is 20 
+# number is 20 
 print(x.random_number(10, 10, 20))
 
 # Test 2: Pre-condition = Method of the class is supplied with two integers, and one float(5, 4.57, 50). This should generate a typeeror as it only 
-expects integers.
+# expects integers.
 # Test 2: Post-condition = The method should generate a TypeError with the message: "The values inputted must all be of type integer."
 print(x.random_number(5, 4.57, 50))
 
