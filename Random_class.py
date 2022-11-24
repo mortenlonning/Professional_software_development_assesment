@@ -32,7 +32,7 @@ x = Random()
 print(x.random_number(10, 10, 20))
 
 
-print(x.random_number(5, 25, 50))
+print(x.random_number(5, 4.57, 50))
 
 
 
